@@ -60,11 +60,6 @@ x_train = preprocess_data(x_train)
 x_val = preprocess_data(x_val)
 x_test = preprocess_data(x_test)
 
-# @title Reduce size
-size = 1200
-#x_test = x_test[:size]
-#y_test = y_test[:size]
-
 """### Plot Functions
 
 #### Image Comparison
