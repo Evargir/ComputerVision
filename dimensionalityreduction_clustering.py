@@ -11,7 +11,6 @@ Original file is located at
 The notebook initiates by loading the Fashion MNIST dataset using Keras, splitting it into training, validation, and testing subsets. It then processes the image data by flattening it and scaling the pixel values. The code integrates various clustering techniques and evaluation metrics in two dictionaries for easy access.
  In the main loop, the algorithm iterates through different dimensionality reduction techniques (and without reduction), applying each clustering technique to the preprocessed data while recording execution times. Visualizations, such as plots, original/reconstructed images, and true label percentages, are generated to provide insights into clustering outcomes. The loop also computes metrics for each combination of clustering and dimensionality reduction methods, storing crucial information, including algorithm names, execution times, and metric scores, in a structured dataframe for analysis.
 
- **Important:** To run this code you can either run the title above this cell for a complete run, or run "Setup" once and then whichever Dimensionality Reduction technique from "Main" you'd like. Also, you can add yout own clustering algorithms and metrics following the instructions in "Dictionaries of Clustering and Metrics". Happy coding!
 
 ## Setup
 
